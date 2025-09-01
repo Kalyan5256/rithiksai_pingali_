@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Srikakulam Tourism</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-image: url("arc.jpeg");
+	background-size: cover;
+    }
+
+	mark{
+		background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+		color: white;
+	}
+    header {
+      background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #023e8a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 25px;
+      display: block;
+      transition: background-color 0.3s ease;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      background-color: #90e0ef;
+      color: black;
+      border-radius: 6px;
+    }
+
+    .main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .main h2 {
+      margin-bottom: 30px;
+      color: black;
+	
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      width: 200px;
+      box-sizing: border-box;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: orange;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: linear-gradient(to right, #ff9966, #ff5e62);
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      background-color: #00b4d8;
+    }
+
+    footer {
+      background-color: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 300px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 90%;
+      }
+
+      nav a {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Srikakulam Tourism</h1>
+    <p>Explore the beauty of Andhra Pradesh</p>
+  </header>
+
+  <nav>
+    <a href="file:///K:/work/hackthon/main/KRASY.html">Home</a>
+    <a href="templ.html">DEVOTIONAL</a>
+    <a href="beach.html">BEACH</a>
+    <a href="riv.html">RIVERS</a>
+    <a href="hot.html">HOTELS</a>
+    <a href="view.html">VIEW POINTS</a>
+  </nav>
+
+  <div class="main">
+    <h2><mark>Famous Places in Srikakulam<mark></h2>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>DEVOTINOAL</h3>
+        <p>Famous Devotional Places</p>
+        <a href="templ.html">Explore</a>
+      </div>
+
+      <div class="card">
+        <h3>BEACH</h3>
+        <p>Sea shore "where the land meets the sea".</p>
+        <a href="beach.html">view</a>
+      </div>
+
+      <div class="card">
+        <h3>VIEW POINT</h3>
+        <p>Beauty of the nature.</p>
+        <a href="view.html">Explore</a>
+      </div>
+ 	<div class="card">
+        <h3>HOTEL</h3>
+        <p>Star hotels and south-indian Foods.</p>
+        <a href="hot.html">Explore</a>
+      </div>
+      <div class="card">
+        <h3>RIVERS</h3>
+        <p>Holy water bodies.</p>
+        <a href="riv.html">Explore</a>
+      </div>
+ 	<div class="card">
+        <h3>HISTORY</h3>
+        <p>Srikakulam.</p>
+        <a href="abt sklm.html">Explore</a>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+  <footer>
+    &copy; 2025 Srikakulam Tourism. Designed for educational use.
+  </footer>
+</html>
